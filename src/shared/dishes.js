@@ -1,4 +1,4 @@
-const DISHES =
+export const DISHES =
     [
         {
         id: 0,
@@ -8,7 +8,7 @@ const DISHES =
         label:'Hot',
         price:'4.99',
         featured: true,
-        description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.'                    
+        description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.'
         },
         {
         id: 1,
@@ -41,5 +41,3 @@ const DISHES =
         description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'
         }
     ];
-
-    export default DISHES;
